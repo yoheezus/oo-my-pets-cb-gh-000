@@ -62,7 +62,6 @@ class Owner
               v.delete(pet)
           end
       end
-      @pets
   end
 
   def list_pets
