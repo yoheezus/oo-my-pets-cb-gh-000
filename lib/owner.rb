@@ -57,7 +57,7 @@ class Owner
 
   def sell_pets
       @pets.each do |k, v|
-          v.each do |pet|
+          v.collect do |pet|
               pet.mood = "nervous"
               v.delete(pet)
           end
